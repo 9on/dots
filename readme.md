@@ -1,5 +1,5 @@
-# About (Don't) README.md
-Nope, don't readme, just personal notes in a public repo.
+# (Don't) README.md
+This readme is not meant to be read
 
 ## Links útiles para configs
 * [Información][dotfiles management] simpática sobre dots management.
