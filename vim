@@ -93,7 +93,10 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vimwiki/vimwiki'
     let g:vimwiki_table_mappings=0
-Plug 'Shougo/vimproc.vim'
+if has('nvim')
+else
+    Plug 'Shougo/vimproc.vim'
+endif
 Plug 'Shougo/unite.vim'
     " unite config{{{
     if has('nvim')
