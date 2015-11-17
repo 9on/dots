@@ -108,9 +108,10 @@ Plug 'Shougo/unite.vim'
     endif
     nnoremap <leader>a <Plug>(unite_redraw)
     nnoremap <leader>z <Plug>(unite_print_message_log)
-    nnoremap <Tab> :Unite buffer<cr>
     nnoremap gb :Unite buffer<cr>
     nnoremap <leader>b :Unite -start-insert buffer<cr>
+    nnoremap <Tab> :Unite -start-insert buffer<cr>
+    nnoremap <S-Tab> :b#<cr>
 "}}}
 Plug 'Shougo/vimfiler.vim'
     nnoremap <C-e> :VimFiler -buffer-name=explorer<CR>
