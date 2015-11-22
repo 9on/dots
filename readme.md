@@ -45,7 +45,18 @@ This readme is not meant to be read
         https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     ```
 
+6. Plugins especiales[*][deopletealpha]
+    ```bash
+    sudo dnf install python3-devel
+    sudo pip3 install neovim
+    ```
+    * Dentro de neovim, corroborar que `:echo has("python3")` retorna 1.
+    * Ejecutar `:UpdateRemotePlugins`.
+    * Reiniciar neovim.
+
 [Install to custom location]:https://github.com/neovim/neovim/wiki/Installing-Neovim#install-to-custom-location
 [nvim from vim]:https://neovim.io/doc/user/nvim_from_vim.html
 [vim plug installation]:https://github.com/junegunn/vim-plug#installation
+[deopletealpha]: https://github.com/Shougo/deoplete.nvim
+
 
