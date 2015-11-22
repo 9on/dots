@@ -154,5 +154,7 @@ Plug 'szw/vim-maximizer'
     nnoremap m :MaximizerToggle<cr>
 Plug 'chrisbra/Recover.vim'
 Plug 'altercation/vim-colors-solarized'
+Plug 'Shougo/deoplete.nvim'
+    let g:deoplete#enable_at_startup = 1
 
 call plug#end()"}}}
