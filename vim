@@ -71,6 +71,9 @@ syntax sync minlines=256
 " more natural stuff
 set splitbelow
 set splitright
+
+"no highlightning, <Ctrl-l> redraws the screen and removes any search highlighting.
+nnoremap <silent> <C-l> :nohl<CR><C-l>
 "}}}
 
 " Laders y binds {{{
